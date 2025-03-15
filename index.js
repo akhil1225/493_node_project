@@ -4,7 +4,8 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 
 const app = express();
-const PORT = 9999;
+ const PORT = process.env.PORT || 9999; // ✅ Use Render's PORT variable
+;
 
 const url = "mongodb+srv://akhil:akhil493@mydb.3f3ay.mongodb.net/?retryWrites=true&w=majority&appName=MyDb";
 
