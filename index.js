@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 
 const app = express();
-const PORT = 6666;
+const PORT = 9999;
 
 const url = "mongodb+srv://akhil:akhil493@mydb.3f3ay.mongodb.net/?retryWrites=true&w=majority&appName=MyDb";
 
